@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # get the project dir
-project_folder=$(/home/pi/scripte/hdmi-slideshow)
+project_folder=$(git rev-parse --show-toplevel)
 # Check if all the programs are running
 
 killAndRestart() {
